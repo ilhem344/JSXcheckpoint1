@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,7 +20,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.title{
+color: aqua;
+border: solid 10px black;
+}
+.image{
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
 .App-link {
   color: #61dafb;
 }
