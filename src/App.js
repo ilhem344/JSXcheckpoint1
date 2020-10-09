@@ -4,16 +4,18 @@ import cat3 from "./cat3.jpg";
 import ReactPlayer from 'react-player';
 
 function App() {
+  const newLocal = <br></br>;
   return (
     <div className="App">
       <header className="App-header">
       <div style={{border:'solid 1px black',maxWidth:'100vw'}}>
 
 <h1 className="title red">Your name here</h1>
-<div></div>
-<img className="image"src={cat3} ></img>
-<div></div>
-<img className="image" src="/images/cat1.jpg"></img>
+
+          {newLocal}
+<img className="image"src={cat3} alt="secondpicture"/> 
+
+<img className="image" src="/images/cat1.jpg" alt='profilepicture'/>
 <div className='player-wrapper'>
         <ReactPlayer
           className='react-player'
